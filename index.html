@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="app-de-clima.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <title>Clima e Tempo</title>
+</head>
+
+<body>
+  <main class="container">
+    <div class="form-container">
+      <h1>Clima</h1>
+      <form class="search">
+        <input type="search" class="searchInput" placeholder="Digite um local">
+        <button class="buscar">Buscar</button>
+      </form>
+    </div>
+    <div class="infos-container">
+      <span class="cityAndCountry"></span>
+      <div class="data-container">
+        <div class="temperature">
+          <span class="subtitle">Temperatura</span>
+          <span class="number"></span>
+        </div>
+        <div class="wind">
+          <span class="subtitle">Vento</span>
+          <span class="number"></span>
+        </div>
+      </div>
+      <div class="img">
+        <span class="description"></span>
+        <img src="http://openweathermap.org/img/wn/10d@2x.png" />
+      </div>
+    </div>
+    <span class="warning"></span>
+    <div class="credits">
+      Desenvolvido por <a href="https://www.linkedin.com/in/lucaspcarvalho/">Lucas Carvalho</a>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>

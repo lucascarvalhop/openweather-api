@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #202124;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+span{
+  display: block;
+  text-align: center;
+}
+
+input, button{
+  outline: none;
+  height: 30px;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+
+button{
+  cursor: pointer;
+}
+
+.container{
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container h1{
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.infos-container{
+  display: none; /*flex*/
+  flex-direction: column;
+  align-items: center;
+  border: 1px dotted white;
+  padding: 15px 60px 0 60px;
+}
+
+.cityAndCountry{
+  margin-bottom: 15px;
+  font-size: 26px;
+}
+
+.data-container{
+  display: flex;
+  gap: 30px;
+}
+
+.subtitle{
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.number{
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.img{
+  text-align: center;
+}
+
+.img .description{
+  margin-top: 15px;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.credits{
+  text-align: center;
+}
+
+.credits a{
+  color: #8549A2;
+  text-decoration: none;
+}
+
+.credits a:hover{
+  text-decoration: underline;
+}
